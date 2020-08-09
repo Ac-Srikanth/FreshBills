@@ -1,0 +1,44 @@
+.logo {
+	width: 120px;
+	height: 31px;
+	/* background: rgba(255, 255, 255, 0.2); */
+	margin: 16px 24px 16px 0;
+	float: left;
+}
+.header-component {
+	background-color: #24292e !important;
+	width: 100vw;
+}
+.menu-component {
+	background-color: #24292e !important;
+	border-bottom: none !important;
+}
+.nav-item {
+	border-bottom: none !important;
+}
+
+.menu-item {
+	color: #ffffff !important;
+	border-bottom: none !important;
+	font-weight: 600;
+}
+.menu-item:hover {
+	color: hsla(0, 0%, 100%, .7) !important;
+}
+
+.logo .icon-book {
+	font-size: 32px !important;
+	color: #ffffff !important;
+}
+
+.logout {
+	float: right;
+	font-weight: 600;
+	border-bottom: none !important;
+	color: white !important;
+	overflow-x: hidden;
+}
+
+.logout:hover {
+	color: hsla(0, 0%, 100%, 0.7) !important;
+}

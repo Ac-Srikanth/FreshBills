@@ -1,0 +1,57 @@
+.customer-header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.add-new-button {
+	display: flex;
+	align-self: flex-end;
+	margin-right: 100px;
+}
+
+.accordian-panel {
+	width: 50%;
+	margin: auto !important;
+	display: flex;
+}
+.accordian-dropdown {
+	min-width: 300px;
+	width: 500px;
+}
+.actionButtons {
+	margin-left: 10px;
+	height: 45.93px;
+	/* margin-top: 10px; */
+	/* border: 1px solid black; */
+	display: flex;
+	justify-content: space-between;
+	width: 150px;
+}
+.action-button {
+	margin-top: 10px !important;
+}
+
+.group-input-customer {
+	outline: none;
+	border: 1px solid #ccc;
+	width: 300px;
+	padding-left: 10px;
+	display: flex;
+}
+
+.group-form {
+	display: flex;	
+	justify-content: space-evenly;
+	margin-bottom: 10px;
+}
+
+#mobile {
+	margin-right: 6px !important;
+	width: 300px;
+}
+
+.search-box {
+	width: 200px !important;
+}

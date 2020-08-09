@@ -1,0 +1,9 @@
+.view-bill-card {
+	display: flex;
+	justify-content: center;
+}
+
+.view-bill-header {
+	text-align: center;
+	margin-top: 10px;
+}

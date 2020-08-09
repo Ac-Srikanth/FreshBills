@@ -1,17 +1,38 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import {BrowserRouter as Router} from 'react-router-dom'
+import {Provider} from 'react-redux'
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+import App from './App'
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+import configureStore from './store/configureStore.js'
+import {startGetUser} from './actions/userAction'
+import {startGetCustomer} from './actions/customerAction'
+import {startGetProducts} from './actions/productAction'
+
+const store = configureStore()
+
+console.log('Initial state',store.getState())
+
+store.subscribe(()=>{
+    console.log('Subscribe', store.getState())
+})
+
+//for handling page reloads
+if(localStorage.getItem('userDetails')) {   
+    store.dispatch(startGetUser())
+    store.dispatch(startGetCustomer())
+    store.dispatch(startGetProducts())
+}
+
+const jsx = (
+    <Provider store={store}>
+        <Router>
+            <App />
+        </Router>
+    </Provider>
+)
+
+
+
+ReactDOM.render(jsx, document.getElementById('root'))

@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+
+.register-div {
+	background: url('../../assets/images/simple-codelines.svg'), #2b3137;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: space-between;
+}
+.register-form {
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: column;
+	align-items: stretch;
+	height: 400px;
+}
+.register-align-div {
+	/* display: flex;
+	flex-direction: row-reverse; */
+	margin-right: 100px;
+	margin-top: 50px;
+}
+
+.register-title {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	/* border: 1px solid red; */
+	margin: auto;
+}
+.register-title span {
+	color: white !important;
+	font-size: 64px;
+	text-align: left !important;
+	margin: 0px;
+	padding: 0px;
+	line-height: 70px;
+	margin-bottom: 5px;
+	font-family: 'Inter', sans-serif !important;
+	font-weight: 500;
+}
+.register-sub-info {
+	margin: 0px;
+	padding: 0px;
+	line-height: 30px;
+	text-align: left;
+	font-size: 20px;
+	color: hsla(0, 0%, 100%, .6) !important;
+	font-family: 'Inter', sans-serif !important;
+	font-weight: 400;
+}
+
+.register-card {
+	height: 499px;
+	width: 426px;
+}
+
+.register-group-input {
+	outline: none !important;
+	border: 1px solid #d1d5da;
+	border-radius: 3px;
+	box-shadow: inset 0 1px 2px rgba(27, 31, 35, .075);
+}
+.register-textarea {
+	outline: none !important;
+	border: 1px solid #d1d5da;
+	border-radius: 3px;
+	box-shadow: inset 0 1px 2px rgba(27, 31, 35, .075);
+}
+.register-group-label {
+	margin-bottom: 5px;
+	font-size: 14px;
+	font-weight: 600;
+	display: inline-block;
+}
+#register-green-button {
+	padding: 20px 32px !important;
+	margin-top: 36px !important;
+
+	background-color: #2ebc4f;
+	border-color: #2ebc4f;
+	border-radius: 3px;
+	transition: .2s;
+	height: 20%;
+	font-weight: 500;
+	color: #fff;
+	cursor: pointer;
+}

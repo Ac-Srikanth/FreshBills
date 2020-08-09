@@ -1,0 +1,32 @@
+.products-header {
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column
+}
+
+.add-new-button {
+	display: flex;
+	align-self: flex-end;
+	margin-right: 100px;
+}
+
+.group-form {
+	display: flex;
+	/* border: 1px solid black; */
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
+
+.group-input-products {
+    display: flex;
+	outline: none;
+	border: 1px solid #ccc;
+	width: 300px;
+	padding-left: 10px;
+	;
+}
+
+#price {
+	margin-left: 60px;
+}

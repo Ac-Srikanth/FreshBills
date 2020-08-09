@@ -1,0 +1,21 @@
+.dynamic-form {
+    /* display: flex; */
+   
+}
+.bill-card{
+    margin: 0 auto !important;
+}
+
+.page-title {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.add-products-form-item{
+  
+}
+
+.add-products-button{
+    margin: 0 50% !important;
+    /* margin: 0 auto; */
+}

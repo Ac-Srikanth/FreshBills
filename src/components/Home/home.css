@@ -1,0 +1,27 @@
+.profile-container {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 10px;
+	margin-top: 40px;
+}
+
+.profile-card {
+	text-align: center;
+}
+
+.profile-info {
+	display: flex;
+	justify-content: space-between;
+	text-align: left;
+}
+
+.container-items {
+	display: flex;
+	justify-content: center;
+}
+
+.container-items .card-item {
+	margin-left: 10px;
+	margin-right: 10px;
+	text-align: center;
+}
