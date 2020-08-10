@@ -20,7 +20,7 @@ class Bills extends React.Component {
         }
     }
     gotoAddNew = () => { //redirect to add new bill page
-        this.props.history.push('/bills/addnew')
+        this.props.history.push('/bills/addnewbill')
     }
 
     goToViewBill = (id) => {

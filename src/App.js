@@ -3,7 +3,7 @@ import { Route, Switch} from 'react-router-dom'
 import Login from './components/Login/Login'
 import Register from './components/Register/Register'
 import Bills from './components/bills/Bills'
-import newBill from './components/bills/newBill'
+import AddNewBill from './components/bills/AddNewBill/AddNewBill'
 import viewBill from './components/bills/viewBill'
 import Customers from './components/customers/Customers'
 import Products from './components/products/Products'
@@ -46,7 +46,7 @@ class App extends React.Component {
                     <Route path="/home" component={Home} />  
                     <Route path="/products" component={Products} /> 
                     <Route path="/bills" component={Bills} exact={true} /> 
-                    <Route path="/bills/addnew" component={newBill}/>
+                    <Route path="/bills/addnewbill"  exact={true} component={AddNewBill}/>
                     <Route path="/bills/:id" component={viewBill} />                    
                 </Switch>        
             </div>   
